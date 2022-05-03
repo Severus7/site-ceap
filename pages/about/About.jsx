@@ -18,6 +18,13 @@ const About = () => {
           borderRight: "1px solid #bdbdbd",
         }}
       >
+        <Box
+          sx={{ padding: "70px 0 70px 0", borderBottom: "1px solid #bdbdbd" }}
+        >
+          <Typography variant="h2" sx={{ textAlign: "center" }}>
+            About
+          </Typography>
+        </Box>
         <Box sx={{ padding: "70px 0 50px 0" }}>
           <Typography component="h3" variant="h3" gutterBottom>
             Vision

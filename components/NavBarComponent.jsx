@@ -32,6 +32,9 @@ const NavBarComponent = () => {
             <Link href="/history" passHref>
               <Tab label="History" sx={{ textTransform: "none" }} />
             </Link>
+            <Link href="/contact" passHref>
+              <Tab label="Contact" sx={{ textTransform: "none" }} />
+            </Link>
             <Link href="/courses" passHref>
               <Tab label="Courses" sx={{ textTransform: "none" }} />
             </Link>
